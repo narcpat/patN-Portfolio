@@ -1,0 +1,87 @@
+/* WHOLE PAGE styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-1: #538d7b;
+	--color-2: #daba07;
+	--color-3: #40434e;
+	--color-4: #d1ccdc;
+	--white: #fff;
+}
+
+body {
+}
+/* END of WHOLE PAGE styles */
+
+/* NAVIGATION */
+header {
+}
+
+header h1 {
+}
+
+header a {
+}
+
+header nav {
+}
+
+header nav ul {
+}
+
+header nav ul li a {
+}
+/* END of NAVIGATION styles */
+
+/* HERO style */
+.hero {
+}
+
+.hero h3 {
+}
+/* END of HERO style */
+
+/* ABOUT ME style */
+.bio {
+}
+
+.bio h2 {
+}
+
+.bio p {
+}
+/* END of ABOUT ME style */
+
+/* WORK style */
+.work-examples {
+}
+
+.my-work {
+}
+/* END of WORK style */
+
+/* CONTACT ME style */
+#contact-me {
+}
+
+#contact-me h2 {
+}
+
+.contact-links ul {
+}
+
+.contact-links ul li a {
+}
+/* END of CONTACT ME style */
+
+/* FOOTER style */
+footer {
+}
+
+footer h2 {
+}
+/* END of FOOTER style */

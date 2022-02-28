@@ -23,7 +23,6 @@ body {
 h2 {
 	font-style: bold;
 	font-size: 42px;
-	justify-items: right;
 }
 
 .flex-row {
@@ -33,7 +32,10 @@ h2 {
 .section-title {
 	text-align: right;
 	flex-wrap: wrap;
-	width: 30%;
+	width: 25%;
+	justify-content: right;
+	padding: 0 70px 0 0;
+	border-right: solid var(--color-2) 3px;
 }
 /* END of WHOLE PAGE styles */
 
@@ -48,7 +50,7 @@ header {
 
 header h1 {
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 46px;
 	color: var(--white);
 	margin: 0;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -96,10 +98,9 @@ header nav ul li a:hover {
 }
 
 .subtitle {
-	color: var(--color-1);
-	background-color: var(--white);
+	color: var(--black);
+	background-color: rgba(218, 186, 7, 0.55);
 	padding: 20px;
-	border: solid 3px var(--color-1);
 	border-radius: 15px;
 	width: 20%;
 	margin: 3.5%;
@@ -107,11 +108,11 @@ header nav ul li a:hover {
 }
 
 .subtitle h3 {
-	color: var(--color-1);
+	color: var(--white);
 	font-size: 25px;
-	padding: 5px 10px;
 	text-align: center;
-	background-color: var(--white);
+	font-size: 25px;
+	font-style: italic;
 }
 /* END of HERO style */
 

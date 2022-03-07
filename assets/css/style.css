@@ -9,18 +9,18 @@
   --color-1: #538d7b;
   --color-2: #daba07;
   --color-3: #40434e;
-  --color-4: #d1ccdc;
+  --color-4: #bbbbbb;
   --white: #fff;
   --black: #000;
 }
 
 body {
-  color: var(--color-4);
   font-family: Helvetica, Arial, sans-serif;
   background-color: var(--color-3);
 }
 
 h2 {
+  color: var(--color-4);
   font-style: bold;
   font-size: 42px;
 }
@@ -105,7 +105,7 @@ header nav ul li a:hover {
 
 .avatar {
   color: var(--black);
-  background-color: rgba(218, 186, 7, 0.55);
+  background-color: rgba(218, 186, 7, 0.75);
   padding: 20px;
   border-radius: 15px;
   flex-wrap: wrap;
@@ -141,13 +141,62 @@ header nav ul li a:hover {
 /* END of ABOUT ME style */
 
 /* WORK style */
-.work-examples {
+#work {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.work-text {
+  color: var(--black);
+  background-color: var(--color-2);
+  padding: 15px 20px;
+  flex-wrap: wrap;
+}
+
+.image-gallery {
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img:hover {
+  opacity: 0.6;
+  transition: 0.9s;
 }
 
 .main-work {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 10px 10px;
+}
+
+.main-work img {
+  justify-content: center;
+  width: 100%;
+}
+
+.secondary-work {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .my-work {
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.my-work img {
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
 }
 /* END of WORK style */
 
